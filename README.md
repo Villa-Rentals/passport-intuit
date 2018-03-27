@@ -12,10 +12,9 @@ unobtrusively integrated into any application or framework that supports
 ## Install
 
 ```js
-$ npm install passport-intuit
-```
+$ git+ssh://git@github.com/villarentals/passport-intuit.git
 
-[NPM package](https://www.npmjs.com/package/passport-intuit)
+```
 
 ## Usage
 
