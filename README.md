@@ -50,7 +50,7 @@ application:
 
 ```js
 app.get('/auth/intuit',
-  passport.authenticate('intuit'));
+  passport.authenticate('intuit', {state: 'some state'}));
 
 app.get('/auth/intuit/return',
   passport.authenticate('intuit', { failureRedirect: '/login' }),

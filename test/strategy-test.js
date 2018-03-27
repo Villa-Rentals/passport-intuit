@@ -7,8 +7,7 @@ describe('IntuitStrategy', function() {
     let strategy = new IntuitStrategy({
       clientID: '123abc',
       scope: 'com.intuit.quickbooks.accounting',
-      redirect_uri: 'https://www.example.net/auth/intuit/return',
-      state: 'some state'
+      redirect_uri: 'https://www.example.net/auth/intuit/return'
     },
     function() {})
 
@@ -21,8 +20,7 @@ describe('IntuitStrategy', function() {
       strategy = new IntuitStrategy({
         clientID: '123abc',
         scope: 'com.intuit.quickbooks.accounting',
-        redirect_uri: 'https://www.example.net/auth/intuit/return',
-        state: 'some state'
+        redirect_uri: 'https://www.example.net/auth/intuit/return'
       },
       function() {});
 
