@@ -64,7 +64,7 @@ app.get('/auth/intuit/return',
 
 ```bash
 $ npm install --dev
-$ make test
+$ npm test
 ```
 ## License
 
