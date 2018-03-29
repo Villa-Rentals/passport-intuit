@@ -12,7 +12,7 @@ unobtrusively integrated into any application or framework that supports
 ## Install
 
 ```js
-$ git+ssh://git@github.com/villarentals/passport-intuit.git
+$ npm i -s git+ssh://git@github.com/villarentals/passport-intuit.git
 
 ```
 
@@ -23,14 +23,13 @@ $ git+ssh://git@github.com/villarentals/passport-intuit.git
 The Intuit authentication strategy authenticates users using a Intuit
 account and OAuth 2.0 tokens.  The strategy requires a `verify` callback, which
 accepts these credentials and calls `done` providing a user, as well as
-`options` specifying a client_id, scope, redirect_uri, and state.
+`options` specifying a client_id, scope, and redirect_uri.
 
 ```js
 passport.use(new IntuitStrategy({
     clientID: '123abc',
     scope: 'com.intuit.quickbooks.accounting',
-    redirect_uri: 'https://www.example.net/auth/intercom/callback',
-    state: 'some state'
+    redirect_uri: 'https://www.example.net/auth/intercom/callback'
   },
   function(accessToken, refreshToken, profile, done) {
     User.findOrCreate({ intuitAccountId: profile.id }, function (err, user) {
