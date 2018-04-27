@@ -12,7 +12,7 @@ unobtrusively integrated into any application or framework that supports
 ## Install
 
 ```js
-$ npm i -s git+ssh://git@github.com/villarentals/passport-intuit.git
+$ npm i -s git+ssh://git@github.com:Villa-Rentals/passport-intuit.git
 
 ```
 

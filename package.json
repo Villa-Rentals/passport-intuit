@@ -2,7 +2,7 @@
   "name": "passport-intuit",
   "version": "1.0.0",
   "description": "Intuit oauth2.0 authentication strategy for Passport.",
-  "homepage": "http://github.com/villarentals/passport-intuit",
+  "homepage": "http://github.com/Villa-Rentals/passport-intuit",
   "keywords": [
     "passport",
     "intuit",
@@ -17,7 +17,7 @@
     "url": "git://github.com/villarentals/passport-intuit.git"
   },
   "bugs": {
-    "url": "https://github.com/villarentals/passport-intuit/issues"
+    "url": "https://github.com/Villa-Rentals/passport-intuit/issues"
   },
   "author": {
     "name": "Villa Rentals",
